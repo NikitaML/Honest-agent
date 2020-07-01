@@ -1,0 +1,153 @@
+.main {
+    width: calc(100vw - 272px);
+    height: 100%;
+    margin-left: 272px;
+    padding-top: 72px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-content {
+}
+
+.company {
+    &__name {
+        display: flex;
+        align-items: center;
+        padding: 28px 0;
+    }
+
+    &__name--title {
+    }
+}
+
+.company-form {
+    border-top: 1px solid #e5e5e5;
+    &__title {
+        display: flex;
+        align-items: center;
+        padding: 28px 0;
+    }
+
+    &__title--text {
+    }
+
+    &__items {
+        padding-bottom: 28px;
+    }
+    &__item + div {
+        margin-top: 12px;
+    }
+    &__item {
+        display: flex;
+    }
+
+    &__name {
+        flex: 0 1 10%;
+        margin-right: 12px;
+    }
+
+    &__text {
+        flex: 0 1 90%;
+    }
+}
+
+.attached-files {
+    &__items {
+        margin-bottom: 32px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__item + div {
+        padding-top: 15px;
+    }
+
+    &__img {
+        width: 25px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    &__delete {
+        position: absolute;
+        top: 0;
+        right: -16px;
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+    }
+    &__img--text {
+        background: url(../images/main/text-file.svg) no-repeat;
+        background-size: cover;
+    }
+    &__img--other {
+        background: url(../images/main/other-file.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__info {
+        width: 150px;
+        position: relative;
+    }
+
+    &__name {
+        font-size: 12px;
+        line-height: 20px;
+        color: #343434;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    &__size {
+        font-size: 12px;
+        line-height: 20px;
+        color: #d7d7d7;
+    }
+}
+
+
+.attached-files {
+
+    &__btn {
+        position: relative;
+        margin-bottom: 28px;
+    }
+
+    &__btn--input {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+        width: 0.4px;
+        height: 0.4px;
+    }
+
+    &__btn--label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 179px;
+
+        background: #82b284;
+        border-radius: 2px;
+        padding: 12px 16px;
+        cursor: pointer;
+    }
+
+    &__btn--icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    &__btn--text {
+        font-size: 14px;
+        line-height: 0.875rem;
+        color: #ffffff;
+    }
+}

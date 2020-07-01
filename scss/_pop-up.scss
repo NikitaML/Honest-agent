@@ -1,0 +1,47 @@
+.pop-up-window{
+    display: none;
+}
+.pop-up {
+    margin: 0 auto;
+    width: 320px;
+    height: 198px;
+    background: #FFFFFF;
+    transition: all .3s ease;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.15);
+    &__inner {
+        width: 272px;
+        margin: 0 auto;
+        color: #3b3b3b;
+        padding: 24px 0;
+    }
+
+    &__title {
+        font-size: 1.25rem;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    &__descr {
+        font-size: 0.875rem;
+        line-height: 18px;
+        margin-bottom: 50px;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__btn {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 20px;
+        color: #b9b9b9;
+    }
+
+    &__btn--priority {
+        color: #82B284;
+    }
+}

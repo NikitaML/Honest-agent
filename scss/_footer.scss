@@ -1,0 +1,22 @@
+.footer {
+    
+    &__inner {
+        padding: 40px 0 55px 0;
+        font-weight: normal;
+        font-size: 0.75rem;
+        line-height: 14px;
+        text-align: center;
+        color: #bfbfbf;
+        border-top: 1px solid #E5E5E5;
+    }
+
+    &__copyright {
+    }
+
+    &__tel {
+        margin-top: 18px;
+        a{
+            color: #bfbfbf;
+        }
+    }
+}

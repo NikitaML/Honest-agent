@@ -1,0 +1,72 @@
+@import url("https://use.typekit.net/ggc6cui.css");
+
+:root {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Proxima Nova;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0 40px 0 35px;
+}
+
+.company__name--title {
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #222222;
+}
+.title-par {
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 24px;
+    color: #3b3b3b;
+}
+.text-name {
+    color: #808080;
+}
+.text-inform {
+    color: #3b3b3b;
+}
+
+.mail {
+    text-decoration-line: underline;
+    color: #82b284;
+}
+
+.btn-edit {
+    margin-left: 16px;
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+        background: url("../images/main/Edit.svg");
+    }
+}
+
+@import "side-menu";
+@import "header";
+@import "main";
+@import "footer";
+@import "pop-up";
